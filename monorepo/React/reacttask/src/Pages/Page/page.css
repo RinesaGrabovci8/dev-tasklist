@@ -1,5 +1,6 @@
 .page {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -9,7 +10,7 @@
   
 .card-container {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -22,12 +23,30 @@
     display: flex;
     flex-direction: column; 
 }
-  
-  .card {
+
+.card-container2{
+  background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; 
+    width: 340px;
+  margin-bottom: 100px; 
+}
+
+.card-container2 p{
+  font-size: 11px;
+  color: #525252;
+}
+
+.card-container2 span{
+  color: rgb(63, 184, 254);
+  font-weight: bold;
+}
+.card {
     display: flex;
     align-items: center;
     width: 300px;
     padding: 10px;
     margin: 8px;
-  }
+}
   

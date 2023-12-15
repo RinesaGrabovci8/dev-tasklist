@@ -118,6 +118,9 @@ const Page = ({ handleCardClick }) => {
       }}
       />
       </div>
+      <div className='card-container2'>
+        <p>Not sure about the consultation type? Please, call <span>0203 7959063</span></p>
+      </div>
     </div>
   )
 }
