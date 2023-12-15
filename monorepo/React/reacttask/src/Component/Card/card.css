@@ -24,7 +24,7 @@
 }
   
 .card-content h1 {
-    text-decoration: none; /* Apply text-decoration directly to the h1 element */
+    text-decoration: none; 
 }
   
 .next-button {

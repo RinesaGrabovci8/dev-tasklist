@@ -18,8 +18,6 @@ import consulation from '../../assets/consultation.jpg'
 
 const Page = ({ handleCardClick }) => {
 
-  const [clickedCard, setClickedCard] = useState(false);
-
   return (
     <div className='page'>
       <div className='card-container'>
