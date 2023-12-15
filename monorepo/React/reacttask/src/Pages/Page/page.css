@@ -1,0 +1,35 @@
+/* page.css */
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    position: relative;
+  }
+  
+  .card-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Adjust the padding as needed */
+    width: 340px; /* Adjust the width as needed */
+    height: 920px; /* Adjust the maximum height as needed */
+    text-align: center;
+    position: relative; /* Use relative positioning */
+    overflow-y: hidden; /* Allow vertical scrolling if content overflows */
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+    margin: 8px;
+  }
+  

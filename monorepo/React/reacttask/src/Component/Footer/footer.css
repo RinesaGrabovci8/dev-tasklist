@@ -1,0 +1,30 @@
+.footer {
+    background-color: white; 
+    color: rgb(85, 85, 85); 
+    text-align: center;
+    padding: 30px;
+}
+  
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
+  
+.footer-text {
+    text-align: center;
+}
+  
+.footer-text p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-text img{
+    max-height: 8%;
+    max-width: 8%;
+}
+  
+.footer-text p {
+    margin: 0;
+}
